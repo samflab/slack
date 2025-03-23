@@ -1,0 +1,10 @@
+@import "./colors.scss";
+@mixin primary-button{
+    background-color: var(--primary-btn-color);
+    color: white;
+    padding: 0.6rem 1.1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

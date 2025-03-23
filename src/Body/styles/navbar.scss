@@ -1,0 +1,58 @@
+@import "./common/colors.scss";
+@import "./common/mixin.scss";
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .nav-links-logo{
+        display: flex;
+        align-items: center;
+        .navbar-nav-links{
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+
+            > li{
+                font-size: 1rem;
+                font-weight: 500;
+            }   
+            
+        }
+    }
+    
+
+    .nav-buttons{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: space-between;
+
+        .search-icon{
+            font-size: 1.2rem;
+        }
+
+        .sign-in-btn{
+            background: none;
+            border: transparent;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .secondary-btn{
+            background: none;
+            border: 2px solid var(--primary-btn-color);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-transform: uppercase;
+            color: var(--primary-btn-color);
+            margin-right: 1rem;
+            outline: none;
+        }
+
+        .primary-btn{
+            @include primary-button;
+
+        }
+    }
+}

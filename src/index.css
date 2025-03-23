@@ -1,0 +1,7 @@
+@import "./Body/styles/common/colors.scss";
+
+body{
+    padding: 1rem 8rem;
+    background-color: var(--bg-color);  
+    font-family: "Lato", sans-serif;
+}
