@@ -1,0 +1,74 @@
+@import "./common/mixin.scss";
+@import "./common/colors.scss";
+
+.cookie-container{
+    padding: 1rem;
+    background-color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    border-radius: 5px;
+    box-shadow: -13px -14px 15px -3px rgba(0,0,0,0.1);
+
+    a{
+        text-decoration: underline;
+        color: var(--message-bg);
+        cursor: pointer;
+    }
+
+    .close-btn{
+        @include close-btn;
+        width: 2rem;
+        align-self: flex-end;
+        color: black;
+        margin-top: 0.5rem;
+
+    }
+}
+
+.primary-button{
+    @include primary-button;
+    margin-right: 1rem;
+}
+
+.secondary-button{
+    @include secondary-button
+}
+
+.user{
+    .user-btn{
+        @include primary-button;
+        font-size: 1.2rem;
+        align-self: stretch;
+        
+    }
+
+    .user-msg{
+        background-color: white !important;
+        width: 15rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        box-shadow: -53px 47px 12px -35px rgba(0,0,0,0.1);
+    }
+    
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+    position: absolute;
+    z-index: 2;
+    right: 3rem;
+    bottom: 0rem;
+    
+    
+    border: none;
+    
+}
+
+
+

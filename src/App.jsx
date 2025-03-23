@@ -3,6 +3,8 @@ import Navbar from './Body/Navbar';
 import Message from './Body/Message';
 import Hero from './Body/Hero';
 import ClientCarousel from './Body/ClientCarousel';
+import Cookie from './Body/Cookie';
+import Content from './Body/Content';
 import './index.css';
 
 const App = () => {
@@ -12,6 +14,9 @@ const App = () => {
       <Message />
       <Hero />
       <ClientCarousel />
+
+      <Content />
+      <Cookie />
     </div>
   );
 };

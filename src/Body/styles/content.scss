@@ -1,2 +1,16 @@
+@import "./common/mixin.scss";
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    margin-top: 1rem;
+
+    .img-container{
+       @include home-img;
+    }
+}
+
 .secondary-button {
+    @include secondary-button
 }

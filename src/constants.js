@@ -6,6 +6,9 @@ export const heroHeading = 'Slack is where the future works';
 export const heroDescription =
   'Transform the way you work with one place for everyone and everything you need to get stuff done.';
 
+export const subHeading = "Now is your moment to build a better tomorrow";
+export const subHeadingDescription = "We've seen what the future can be. Now its time to decide what it will be."
+
 export const clientCarouselImageData = [
   'https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg',
   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcTmTLeYJiuL7M3pSshRLYVltKE9PjEZlBPQ&s',
@@ -16,3 +19,6 @@ export const clientCarouselImageData = [
   'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/2560px-Uber_logo_2018.svg.png',
   'https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg',
 ];
+
+export const cookieText =
+  'This website uses cookies to enhance user experience and to analyse performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytical partners.';

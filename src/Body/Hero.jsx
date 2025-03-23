@@ -10,7 +10,17 @@ const Hero = () => {
 
         <button className="primary-button">Try for Free</button>
 
-        <button className="google-sigin-btn">Sign up with google</button>
+        <button className="google-sigin-btn">
+          <div>
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+              height="40"
+              width="40"
+              alt="icon"
+            />
+          </div>
+          Sign up with google
+        </button>
       </div>
 
       <div className="img-container">

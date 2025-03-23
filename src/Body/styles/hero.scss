@@ -4,7 +4,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 8rem;
   margin-top: 2rem;
   .hero-heading {
     font-size: 3rem;
@@ -19,18 +19,24 @@
   }
   .google-sigin-btn {
     @include primary-button;
-    padding: 1rem 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    width: auto;
+    > div{
+        background-color: white;
+        display: inline-block;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    padding-right: 1rem;
+    padding-left: 0.3rem;
+   vertical-align: middle;
     background-color: var(--google-btn-color);
+    letter-spacing: 1px;
   }
 
   .img-container {
-    align-self: center;
-    height: 400px;
-    width: 900px;
-    img {
-      border-radius: 20px;
-      height: 100%;
-      width: 100%;
-    }
+    @include home-img
   }
 }

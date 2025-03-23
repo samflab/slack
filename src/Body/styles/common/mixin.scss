@@ -7,4 +7,39 @@
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
+  height: 3rem;
+}
+
+@mixin secondary-button {
+    background: none;
+      border: 2px solid var(--primary-btn-color);
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      height: 3rem;
+      text-transform: uppercase;
+      color: var(--primary-btn-color);
+      margin-right: 1rem;
+      outline: none;
+      font-weight: 600;
+}
+
+@mixin close-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+@mixin home-img {
+    align-self: center;
+    width: 745px;
+    height: 320px;
+    img {
+      border-radius: 20px;
+      height: 100%;
+      width: 100%;
+    }
 }
