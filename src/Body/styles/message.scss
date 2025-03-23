@@ -1,25 +1,24 @@
+@import '../styles//common/colors.scss';
 
-@import "../styles//common/colors.scss";
-
-.message-container{
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-    margin-top: 0.5rem;
-    background-color: var(--message-bg);
+.message-container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 0.5rem;
+  background-color: var(--message-bg);
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
+  .message-link {
+    text-decoration: underline;
     color: white;
-    padding: 1.5rem 2rem;
-    border-radius: 50px;
-    .message-link{
-        text-decoration: underline;
-        color: white;
-    }
-    .close-btn{
-        background: transparent;
-        border: none;
-        padding: 0;
-        outline: none;
-        color: white;
-        cursor: pointer;
-    }
+  }
+  .close-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+    color: white;
+    cursor: pointer;
+  }
 }

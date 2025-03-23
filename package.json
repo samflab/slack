@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.1",
-    "parcel": "^2.10.0"
+    "parcel": "^2.10.0",
+    "prettier": "^3.5.3"
   }
 }

@@ -1,7 +1,10 @@
-@import "./Body/styles/common/colors.scss";
+@import './Body/styles/common/colors.scss';
 
-body{
-    padding: 1rem 8rem;
-    background-color: var(--bg-color);  
-    font-family: "Lato", sans-serif;
+body {
+  padding: 1rem 8rem;
+  background-color: var(--bg-color);
+  font-family: 'Lato', sans-serif;
+  button {
+    font-family: 'Lato', sans-serif;
+  }
 }

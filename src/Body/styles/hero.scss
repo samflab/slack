@@ -1,37 +1,36 @@
-@import "../styles/common/mixin.scss";
+@import '../styles/common/mixin.scss';
 
-.hero-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top: 2rem;
-    .hero-heading{
-        font-size: 3rem;
-    }
-    .hero-description{
-        font-size: 1rem;
-    }
-    .primary-button{
-        @include primary-button;
-        padding: 1rem 2.5rem;
-        margin-right: 1rem;
-    }
-    .google-sigin-btn{
-        @include primary-button;
-        padding: 1rem 2.5rem;
-        background-color: var(--google-btn-color);
-        
-    }
+.hero-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  .hero-heading {
+    font-size: 3rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+  .primary-button {
+    @include primary-button;
+    padding: 1rem 2.5rem;
+    margin-right: 1rem;
+  }
+  .google-sigin-btn {
+    @include primary-button;
+    padding: 1rem 2.5rem;
+    background-color: var(--google-btn-color);
+  }
 
-    .img-container{
-        align-self: center;
-        height: 400px;
-        width: 900px;
-        img{
-            border-radius: 20px;
-            height: 100%;
-            width: 100%;
-        }
+  .img-container {
+    align-self: center;
+    height: 400px;
+    width: 900px;
+    img {
+      border-radius: 20px;
+      height: 100%;
+      width: 100%;
     }
+  }
 }

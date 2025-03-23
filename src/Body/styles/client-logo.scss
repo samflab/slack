@@ -1,16 +1,16 @@
-.client-container{
-    display: flex;
-    margin-top: 2rem;
-    gap: 2rem;
-    overflow-x: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;
+.client-container {
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
 
-    &::-webkit-scrollbar{
-        display: none;
-    }
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
-    img{
-        object-fit: contain;
-    }
+  img {
+    object-fit: contain;
+  }
 }
